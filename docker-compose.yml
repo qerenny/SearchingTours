@@ -1,0 +1,15 @@
+﻿services:
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_DB: "searchingtours"
+      POSTGRES_USER: "admin"
+      POSTGRES_PASSWORD: "89t98our21s12"
+      PGDATA: "/src/Application/SearchingTours.Application.Models/data/pgdata"
+    volumes:
+      - /src/Application/SearchingTours.Application.Models/data/docker-entrypoint-initdb.d
+      - /src/Application/SearchingTours.Application.Models/data
+    ports:
+      - "5432:5432"
+
+#volumes:
