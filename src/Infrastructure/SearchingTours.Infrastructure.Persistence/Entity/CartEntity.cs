@@ -1,8 +1,7 @@
-namespace SearchingTours.Application.Models;
+namespace SearchingTours.Infrastructure.Persistence.Entity;
 
-public class CartEntity(UserEntity user)
+public class CartEntity
 {
     public int Id { get; set; }
-    
-    public UserEntity User { get; set; } = user;
+    public UserEntity User { get; set; }
 }

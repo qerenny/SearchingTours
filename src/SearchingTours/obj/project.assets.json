@@ -1976,6 +1976,7 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
           "SearchingTours.Application.Abstractions": "1.0.0",
           "SearchingTours.Application.Contracts": "1.0.0",
+          "SearchingTours.Infrastructure.Persistence": "1.0.0",
           "System.Linq.Async": "6.0.1"
         },
         "compile": {

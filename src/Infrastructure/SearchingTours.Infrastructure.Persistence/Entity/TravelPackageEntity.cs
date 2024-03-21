@@ -1,37 +1,16 @@
-namespace SearchingTours.Application.Models;
+namespace SearchingTours.Infrastructure.Persistence.Entity;
 
-public class TravelPackageEntity(
-    int id,
-    TravelAgencyEntity travelAgencyId,
-    int amountOfPackages,
-    string name,
-    int amountOfPeople,
-    string destination,
-    decimal price,
-    string description,
-    DateTime startDate,
-    DateTime endDate,
-    double rating)
+public class TravelPackageEntity
 {
-    public int Id { get; set; } = id;
-
-    public TravelAgencyEntity TravelAgencyId { get; set; } = travelAgencyId;
-
-    public int AmountOfPackages { get; set; } = amountOfPackages;
-
-    public string Name { get; set; } = name;
-
-    public int AmountOfPeople { get; set; } = amountOfPeople;
-
-    public string Destination { get; set; } = destination;
-
-    public decimal Price { get; set; } = price;
-
-    public string Description { get; set; } = description;
-
-    public DateTime StartDate { get; set; } = startDate;
-
-    public DateTime EndDate { get; set; } = endDate;
-
-    public double Rating { get; set; } = rating;
+    public int Id { get; set; }
+    public TravelAgencyEntity TravelAgencyId { get; set; }
+    public int AmountOfPackages { get; set; }
+    public string Name { get; set; }
+    public int AmountOfPeople { get; set; }
+    public string Destination { get; set; }
+    public decimal Price { get; set; }
+    public string Description { get; set; }
+    public DateTime StartDate { get; set; }
+    public DateTime EndDate { get; set; }
+    public double Rating { get; set; }
 }

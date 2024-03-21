@@ -336,6 +336,9 @@
               },
               "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Contracts/SearchingTours.Application.Contracts.csproj": {
                 "projectPath": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Contracts/SearchingTours.Application.Contracts.csproj"
+              },
+              "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Infrastructure/SearchingTours.Infrastructure.Persistence/SearchingTours.Infrastructure.Persistence.csproj": {
+                "projectPath": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Infrastructure/SearchingTours.Infrastructure.Persistence/SearchingTours.Infrastructure.Persistence.csproj"
               }
             }
           }

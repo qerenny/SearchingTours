@@ -1,16 +1,11 @@
-namespace SearchingTours.Application.Models;
+namespace SearchingTours.Infrastructure.Persistence.Entity;
 
-public class UserEntity(int id, string username, string email, string password, string city, string phone)
+public class UserEntity
 {
-    public int Id { get; set; } = id;
-
-    public string Username { get; set; } = username;
-
-    public string Email { get; set; } = email;
-
-    public string Password { get; set; } = password;
-
-    public string City { get; set; } = city;
-
-    public string Phone { get; set; } = phone;
+    public int Id { get; set; }
+    public string Username { get; set; }
+    public string Email { get; set; }
+    public string Password { get; set; }
+    public string City { get; set; }
+    public string Phone { get; set; }
 }

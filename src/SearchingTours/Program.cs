@@ -3,7 +3,6 @@
 using Itmo.Dev.Platform.Common.Extensions;
 using Itmo.Dev.Platform.Logging.Extensions;
 using SearchingTours.Application.Extensions;
-using SearchingTours.Infrastructure.Persistence.Extensions;
 using SearchingTours.Presentation.Http.Extensions;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
@@ -16,7 +15,7 @@ builder.Services.AddOptions<JsonSerializerSettings>();
 builder.Services.AddSingleton(sp => sp.GetRequiredService<IOptions<JsonSerializerSettings>>().Value);
 
 builder.Services.AddApplication();
-builder.Services.AddInfrastructurePersistence();
+builder.Services.AddInfrastructurePersistence(builder.Configuration);
 builder.Services
     .AddControllers()
     .AddNewtonsoftJson()

@@ -1,12 +1,9 @@
-namespace SearchingTours.Application.Models;
+namespace SearchingTours.Infrastructure.Persistence.Entity;
 
-public class TravelAgencyEntity(int id, string name, string password, string contactInfo)
+public class TravelAgencyEntity
 {
-    public int Id { get; set; } = id;
-
-    public string Name { get; set; } = name;
-
-    public string Password { get; set; } = password;
-
-    public string ContactInfo { get; set; } = contactInfo;
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public string Password { get; set; }
+    public string ContactInfo { get; set; }
 }

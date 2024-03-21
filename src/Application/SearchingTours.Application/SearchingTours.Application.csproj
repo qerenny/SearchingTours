@@ -1,6 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <ItemGroup>
+        <ProjectReference Include="..\..\Infrastructure\SearchingTours.Infrastructure.Persistence\SearchingTours.Infrastructure.Persistence.csproj" />
         <ProjectReference Include="..\SearchingTours.Application.Abstractions\SearchingTours.Application.Abstractions.csproj"/>
         <ProjectReference Include="..\SearchingTours.Application.Contracts\SearchingTours.Application.Contracts.csproj"/>
     </ItemGroup>

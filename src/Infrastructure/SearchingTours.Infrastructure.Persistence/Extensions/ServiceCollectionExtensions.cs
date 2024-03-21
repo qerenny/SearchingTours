@@ -1,3 +1,5 @@
+using Microsoft.Extensions.Configuration;
+
 namespace SearchingTours.Infrastructure.Persistence.Extensions;
 
 using Itmo.Dev.Platform.Postgres.Extensions;

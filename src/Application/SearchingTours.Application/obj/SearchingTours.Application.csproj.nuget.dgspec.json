@@ -336,6 +336,9 @@
               },
               "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Contracts/SearchingTours.Application.Contracts.csproj": {
                 "projectPath": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Contracts/SearchingTours.Application.Contracts.csproj"
+              },
+              "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Infrastructure/SearchingTours.Infrastructure.Persistence/SearchingTours.Infrastructure.Persistence.csproj": {
+                "projectPath": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Infrastructure/SearchingTours.Infrastructure.Persistence/SearchingTours.Infrastructure.Persistence.csproj"
               }
             }
           }
@@ -359,6 +362,132 @@
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.435, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Linq.Async": {
+              "target": "Package",
+              "version": "[6.0.1, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "EntityFramework": "[6.4.4, )",
+            "Itmo.Dev.Editorconfig": "[1.0.1, )",
+            "Itmo.Dev.Platform.Common": "[1.1.82, )",
+            "Itmo.Dev.Platform.Logging": "[1.0.82, )",
+            "Itmo.Dev.Platform.Postgres": "[1.1.82, )",
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "[7.0.15, )",
+            "Microsoft.EntityFrameworkCore": "[7.0.10, )",
+            "Microsoft.EntityFrameworkCore.Design": "[7.0.10, )",
+            "Microsoft.EntityFrameworkCore.Tools": "[7.0.10, )",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "[8.0.0, )",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "[8.0.0, )",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "[7.0.4, )",
+            "SourceKit.Generators.Builder": "[1.1.24, )",
+            "StyleCop.Analyzers": "[1.2.0-beta.435, )",
+            "Swashbuckle.AspNetCore": "[6.5.0, )",
+            "System.Linq.Async": "[6.0.1, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Infrastructure/SearchingTours.Infrastructure.Persistence/SearchingTours.Infrastructure.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Infrastructure/SearchingTours.Infrastructure.Persistence/SearchingTours.Infrastructure.Persistence.csproj",
+        "projectName": "SearchingTours.Infrastructure.Persistence",
+        "projectPath": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Infrastructure/SearchingTours.Infrastructure.Persistence/SearchingTours.Infrastructure.Persistence.csproj",
+        "packagesPath": "/Users/qerenny/.nuget/packages/",
+        "outputPath": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Infrastructure/SearchingTours.Infrastructure.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "/Users/qerenny/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Abstractions/SearchingTours.Application.Abstractions.csproj": {
+                "projectPath": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Abstractions/SearchingTours.Application.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Itmo.Dev.Editorconfig": {
+              "target": "Package",
+              "version": "[1.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Itmo.Dev.Platform.Postgres": {
+              "target": "Package",
+              "version": "[1.1.82, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[7.0.10, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[7.0.10, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )",
               "versionCentrallyManaged": true
             },
             "StyleCop.Analyzers": {
