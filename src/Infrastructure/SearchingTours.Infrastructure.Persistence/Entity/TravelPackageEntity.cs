@@ -1,8 +1,8 @@
 namespace SearchingTours.Application.Models;
 
-public class TravelPackage(
+public class TravelPackageEntity(
     int id,
-    TravelAgency travelAgencyId,
+    TravelAgencyEntity travelAgencyId,
     int amountOfPackages,
     string name,
     int amountOfPeople,
@@ -15,7 +15,7 @@ public class TravelPackage(
 {
     public int Id { get; set; } = id;
 
-    public TravelAgency TravelAgencyId { get; set; } = travelAgencyId;
+    public TravelAgencyEntity TravelAgencyId { get; set; } = travelAgencyId;
 
     public int AmountOfPackages { get; set; } = amountOfPackages;
 

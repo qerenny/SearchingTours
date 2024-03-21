@@ -1,6 +1,6 @@
 namespace SearchingTours.Application.Models;
 
-public enum PaymentStatus
+public enum PaymentStatusEntity
 {
     Paid,
     Canceled, 

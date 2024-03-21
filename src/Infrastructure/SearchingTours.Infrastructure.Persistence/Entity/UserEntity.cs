@@ -1,6 +1,6 @@
 namespace SearchingTours.Application.Models;
 
-public class User(int id, string username, string email, string password, string city, string phone)
+public class UserEntity(int id, string username, string email, string password, string city, string phone)
 {
     public int Id { get; set; } = id;
 

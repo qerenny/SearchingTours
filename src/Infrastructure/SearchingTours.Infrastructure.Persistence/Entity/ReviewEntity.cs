@@ -1,10 +1,10 @@
 namespace SearchingTours.Application.Models;
 
-public class Review(int id, TravelPackage travelPackageId, string authorName, string text, int rating)
+public class ReviewEntity(int id, TravelPackageEntity travelPackageId, string authorName, string text, int rating)
 {
     public int Id { get; set; } = id;
 
-    public TravelPackage TravelPackageId { get; set; } = travelPackageId;
+    public TravelPackageEntity TravelPackageId { get; set; } = travelPackageId;
 
     public string AuthorName { get; set; } = authorName;
 

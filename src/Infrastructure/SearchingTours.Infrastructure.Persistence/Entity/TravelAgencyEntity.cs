@@ -1,6 +1,6 @@
 namespace SearchingTours.Application.Models;
 
-public class TravelAgency(int id, string name, string password, string contactInfo)
+public class TravelAgencyEntity(int id, string name, string password, string contactInfo)
 {
     public int Id { get; set; } = id;
 
