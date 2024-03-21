@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "aUqdErz9UpdfZJWs2N/HwVFY3Jbaw49tZcfRiUSKGv7SP9VJXgmNoGaA97b/J4hJsYOZxz0A5hCmROKyPwne+Q==",
+  "dgSpecHash": "bJ0+iDaNVLEZhRfjRUvtNCWxxW/uU0Avwd8newkzUW6l+wIo/mv79Cfbuty/7bk1hOs52+T4an3nkxhvuKZ1ng==",
   "success": true,
   "projectFilePath": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Contracts/SearchingTours.Application.Contracts.csproj",
   "expectedPackageFiles": [
-    "/Users/qerenny/.nuget/packages/itmo.dev.editorconfig/1.0.2/itmo.dev.editorconfig.1.0.2.nupkg.sha512",
+    "/Users/qerenny/.nuget/packages/itmo.dev.editorconfig/1.0.1/itmo.dev.editorconfig.1.0.1.nupkg.sha512",
     "/Users/qerenny/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/Users/qerenny/.nuget/packages/stylecop.analyzers/1.2.0-beta.435/stylecop.analyzers.1.2.0-beta.435.nupkg.sha512",
     "/Users/qerenny/.nuget/packages/stylecop.analyzers.unstable/1.2.0.435/stylecop.analyzers.unstable.1.2.0.435.nupkg.sha512",

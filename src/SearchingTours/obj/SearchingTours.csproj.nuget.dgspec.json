@@ -46,7 +46,22 @@
           "dependencies": {
             "Itmo.Dev.Editorconfig": {
               "target": "Package",
-              "version": "[1.0.2, )",
+              "version": "[1.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Itmo.Dev.Platform.Common": {
+              "target": "Package",
+              "version": "[1.1.82, )",
+              "versionCentrallyManaged": true
+            },
+            "Itmo.Dev.Platform.Postgres": {
+              "target": "Package",
+              "version": "[1.1.82, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )",
               "versionCentrallyManaged": true
             },
             "SourceKit.Generators.Builder": {
@@ -68,13 +83,18 @@
             }
           },
           "centralPackageVersions": {
-            "Itmo.Dev.Editorconfig": "[1.0.2, )",
-            "Itmo.Dev.Platform.Logging": "[1.0.89, )",
-            "Itmo.Dev.Platform.Postgres": "[1.1.89, )",
+            "EntityFramework": "[6.4.4, )",
+            "Itmo.Dev.Editorconfig": "[1.0.1, )",
+            "Itmo.Dev.Platform.Common": "[1.1.82, )",
+            "Itmo.Dev.Platform.Logging": "[1.0.82, )",
+            "Itmo.Dev.Platform.Postgres": "[1.1.82, )",
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "[7.0.15, )",
+            "Microsoft.EntityFrameworkCore": "[7.0.10, )",
+            "Microsoft.EntityFrameworkCore.Design": "[7.0.10, )",
+            "Microsoft.EntityFrameworkCore.Tools": "[7.0.10, )",
             "Microsoft.Extensions.DependencyInjection.Abstractions": "[8.0.0, )",
             "Microsoft.Extensions.Options.ConfigurationExtensions": "[8.0.0, )",
-            "Npgsql.EntityFrameworkCore.PostgreSQL": "[8.0.2, )",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "[7.0.4, )",
             "SourceKit.Generators.Builder": "[1.1.24, )",
             "StyleCop.Analyzers": "[1.2.0-beta.435, )",
             "Swashbuckle.AspNetCore": "[6.5.0, )",
@@ -142,7 +162,7 @@
           "dependencies": {
             "Itmo.Dev.Editorconfig": {
               "target": "Package",
-              "version": "[1.0.2, )",
+              "version": "[1.0.1, )",
               "versionCentrallyManaged": true
             },
             "StyleCop.Analyzers": {
@@ -159,13 +179,18 @@
             }
           },
           "centralPackageVersions": {
-            "Itmo.Dev.Editorconfig": "[1.0.2, )",
-            "Itmo.Dev.Platform.Logging": "[1.0.89, )",
-            "Itmo.Dev.Platform.Postgres": "[1.1.89, )",
+            "EntityFramework": "[6.4.4, )",
+            "Itmo.Dev.Editorconfig": "[1.0.1, )",
+            "Itmo.Dev.Platform.Common": "[1.1.82, )",
+            "Itmo.Dev.Platform.Logging": "[1.0.82, )",
+            "Itmo.Dev.Platform.Postgres": "[1.1.82, )",
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "[7.0.15, )",
+            "Microsoft.EntityFrameworkCore": "[7.0.10, )",
+            "Microsoft.EntityFrameworkCore.Design": "[7.0.10, )",
+            "Microsoft.EntityFrameworkCore.Tools": "[7.0.10, )",
             "Microsoft.Extensions.DependencyInjection.Abstractions": "[8.0.0, )",
             "Microsoft.Extensions.Options.ConfigurationExtensions": "[8.0.0, )",
-            "Npgsql.EntityFrameworkCore.PostgreSQL": "[8.0.2, )",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "[7.0.4, )",
             "SourceKit.Generators.Builder": "[1.1.24, )",
             "StyleCop.Analyzers": "[1.2.0-beta.435, )",
             "Swashbuckle.AspNetCore": "[6.5.0, )",
@@ -229,7 +254,7 @@
           "dependencies": {
             "Itmo.Dev.Editorconfig": {
               "target": "Package",
-              "version": "[1.0.2, )",
+              "version": "[1.0.1, )",
               "versionCentrallyManaged": true
             },
             "StyleCop.Analyzers": {
@@ -246,13 +271,18 @@
             }
           },
           "centralPackageVersions": {
-            "Itmo.Dev.Editorconfig": "[1.0.2, )",
-            "Itmo.Dev.Platform.Logging": "[1.0.89, )",
-            "Itmo.Dev.Platform.Postgres": "[1.1.89, )",
+            "EntityFramework": "[6.4.4, )",
+            "Itmo.Dev.Editorconfig": "[1.0.1, )",
+            "Itmo.Dev.Platform.Common": "[1.1.82, )",
+            "Itmo.Dev.Platform.Logging": "[1.0.82, )",
+            "Itmo.Dev.Platform.Postgres": "[1.1.82, )",
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "[7.0.15, )",
+            "Microsoft.EntityFrameworkCore": "[7.0.10, )",
+            "Microsoft.EntityFrameworkCore.Design": "[7.0.10, )",
+            "Microsoft.EntityFrameworkCore.Tools": "[7.0.10, )",
             "Microsoft.Extensions.DependencyInjection.Abstractions": "[8.0.0, )",
             "Microsoft.Extensions.Options.ConfigurationExtensions": "[8.0.0, )",
-            "Npgsql.EntityFrameworkCore.PostgreSQL": "[8.0.2, )",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "[7.0.4, )",
             "SourceKit.Generators.Builder": "[1.1.24, )",
             "StyleCop.Analyzers": "[1.2.0-beta.435, )",
             "Swashbuckle.AspNetCore": "[6.5.0, )",
@@ -323,7 +353,7 @@
           "dependencies": {
             "Itmo.Dev.Editorconfig": {
               "target": "Package",
-              "version": "[1.0.2, )",
+              "version": "[1.0.1, )",
               "versionCentrallyManaged": true
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
@@ -345,13 +375,18 @@
             }
           },
           "centralPackageVersions": {
-            "Itmo.Dev.Editorconfig": "[1.0.2, )",
-            "Itmo.Dev.Platform.Logging": "[1.0.89, )",
-            "Itmo.Dev.Platform.Postgres": "[1.1.89, )",
+            "EntityFramework": "[6.4.4, )",
+            "Itmo.Dev.Editorconfig": "[1.0.1, )",
+            "Itmo.Dev.Platform.Common": "[1.1.82, )",
+            "Itmo.Dev.Platform.Logging": "[1.0.82, )",
+            "Itmo.Dev.Platform.Postgres": "[1.1.82, )",
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "[7.0.15, )",
+            "Microsoft.EntityFrameworkCore": "[7.0.10, )",
+            "Microsoft.EntityFrameworkCore.Design": "[7.0.10, )",
+            "Microsoft.EntityFrameworkCore.Tools": "[7.0.10, )",
             "Microsoft.Extensions.DependencyInjection.Abstractions": "[8.0.0, )",
             "Microsoft.Extensions.Options.ConfigurationExtensions": "[8.0.0, )",
-            "Npgsql.EntityFrameworkCore.PostgreSQL": "[8.0.2, )",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "[7.0.4, )",
             "SourceKit.Generators.Builder": "[1.1.24, )",
             "StyleCop.Analyzers": "[1.2.0-beta.435, )",
             "Swashbuckle.AspNetCore": "[6.5.0, )",
@@ -419,17 +454,37 @@
           "dependencies": {
             "Itmo.Dev.Editorconfig": {
               "target": "Package",
-              "version": "[1.0.2, )",
+              "version": "[1.0.1, )",
               "versionCentrallyManaged": true
             },
             "Itmo.Dev.Platform.Postgres": {
               "target": "Package",
-              "version": "[1.1.89, )",
+              "version": "[1.1.82, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[7.0.10, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[7.0.10, )",
               "versionCentrallyManaged": true
             },
             "Microsoft.Extensions.Options.ConfigurationExtensions": {
               "target": "Package",
               "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )",
               "versionCentrallyManaged": true
             },
             "StyleCop.Analyzers": {
@@ -446,13 +501,18 @@
             }
           },
           "centralPackageVersions": {
-            "Itmo.Dev.Editorconfig": "[1.0.2, )",
-            "Itmo.Dev.Platform.Logging": "[1.0.89, )",
-            "Itmo.Dev.Platform.Postgres": "[1.1.89, )",
+            "EntityFramework": "[6.4.4, )",
+            "Itmo.Dev.Editorconfig": "[1.0.1, )",
+            "Itmo.Dev.Platform.Common": "[1.1.82, )",
+            "Itmo.Dev.Platform.Logging": "[1.0.82, )",
+            "Itmo.Dev.Platform.Postgres": "[1.1.82, )",
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "[7.0.15, )",
+            "Microsoft.EntityFrameworkCore": "[7.0.10, )",
+            "Microsoft.EntityFrameworkCore.Design": "[7.0.10, )",
+            "Microsoft.EntityFrameworkCore.Tools": "[7.0.10, )",
             "Microsoft.Extensions.DependencyInjection.Abstractions": "[8.0.0, )",
             "Microsoft.Extensions.Options.ConfigurationExtensions": "[8.0.0, )",
-            "Npgsql.EntityFrameworkCore.PostgreSQL": "[8.0.2, )",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "[7.0.4, )",
             "SourceKit.Generators.Builder": "[1.1.24, )",
             "StyleCop.Analyzers": "[1.2.0-beta.435, )",
             "Swashbuckle.AspNetCore": "[6.5.0, )",
@@ -516,7 +576,7 @@
           "dependencies": {
             "Itmo.Dev.Editorconfig": {
               "target": "Package",
-              "version": "[1.0.2, )",
+              "version": "[1.0.1, )",
               "versionCentrallyManaged": true
             },
             "StyleCop.Analyzers": {
@@ -533,13 +593,18 @@
             }
           },
           "centralPackageVersions": {
-            "Itmo.Dev.Editorconfig": "[1.0.2, )",
-            "Itmo.Dev.Platform.Logging": "[1.0.89, )",
-            "Itmo.Dev.Platform.Postgres": "[1.1.89, )",
+            "EntityFramework": "[6.4.4, )",
+            "Itmo.Dev.Editorconfig": "[1.0.1, )",
+            "Itmo.Dev.Platform.Common": "[1.1.82, )",
+            "Itmo.Dev.Platform.Logging": "[1.0.82, )",
+            "Itmo.Dev.Platform.Postgres": "[1.1.82, )",
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "[7.0.15, )",
+            "Microsoft.EntityFrameworkCore": "[7.0.10, )",
+            "Microsoft.EntityFrameworkCore.Design": "[7.0.10, )",
+            "Microsoft.EntityFrameworkCore.Tools": "[7.0.10, )",
             "Microsoft.Extensions.DependencyInjection.Abstractions": "[8.0.0, )",
             "Microsoft.Extensions.Options.ConfigurationExtensions": "[8.0.0, )",
-            "Npgsql.EntityFrameworkCore.PostgreSQL": "[8.0.2, )",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "[7.0.4, )",
             "SourceKit.Generators.Builder": "[1.1.24, )",
             "StyleCop.Analyzers": "[1.2.0-beta.435, )",
             "Swashbuckle.AspNetCore": "[6.5.0, )",
@@ -616,12 +681,12 @@
           "dependencies": {
             "Itmo.Dev.Editorconfig": {
               "target": "Package",
-              "version": "[1.0.2, )",
+              "version": "[1.0.1, )",
               "versionCentrallyManaged": true
             },
             "Itmo.Dev.Platform.Logging": {
               "target": "Package",
-              "version": "[1.0.89, )",
+              "version": "[1.0.82, )",
               "versionCentrallyManaged": true
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
@@ -631,7 +696,7 @@
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[8.0.2, )",
+              "version": "[7.0.4, )",
               "versionCentrallyManaged": true
             },
             "StyleCop.Analyzers": {
@@ -653,13 +718,18 @@
             }
           },
           "centralPackageVersions": {
-            "Itmo.Dev.Editorconfig": "[1.0.2, )",
-            "Itmo.Dev.Platform.Logging": "[1.0.89, )",
-            "Itmo.Dev.Platform.Postgres": "[1.1.89, )",
+            "EntityFramework": "[6.4.4, )",
+            "Itmo.Dev.Editorconfig": "[1.0.1, )",
+            "Itmo.Dev.Platform.Common": "[1.1.82, )",
+            "Itmo.Dev.Platform.Logging": "[1.0.82, )",
+            "Itmo.Dev.Platform.Postgres": "[1.1.82, )",
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "[7.0.15, )",
+            "Microsoft.EntityFrameworkCore": "[7.0.10, )",
+            "Microsoft.EntityFrameworkCore.Design": "[7.0.10, )",
+            "Microsoft.EntityFrameworkCore.Tools": "[7.0.10, )",
             "Microsoft.Extensions.DependencyInjection.Abstractions": "[8.0.0, )",
             "Microsoft.Extensions.Options.ConfigurationExtensions": "[8.0.0, )",
-            "Npgsql.EntityFrameworkCore.PostgreSQL": "[8.0.2, )",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "[7.0.4, )",
             "SourceKit.Generators.Builder": "[1.1.24, )",
             "StyleCop.Analyzers": "[1.2.0-beta.435, )",
             "Swashbuckle.AspNetCore": "[6.5.0, )",
