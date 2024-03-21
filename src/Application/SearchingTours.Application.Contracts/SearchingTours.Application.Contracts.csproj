@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <ProjectReference Include="..\SearchingTours.Application.Models\SearchingTours.Application.Models.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+    </ItemGroup>
+
+</Project>
