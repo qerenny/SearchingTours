@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Models/SearchingTours.Application.Models.csproj": {}
+    "C:\\main\\itmo\\SearchingTours\\src\\Application\\SearchingTours.Application.Models\\SearchingTours.Application.Models.csproj": {}
   },
   "projects": {
-    "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Models/SearchingTours.Application.Models.csproj": {
+    "C:\\main\\itmo\\SearchingTours\\src\\Application\\SearchingTours.Application.Models\\SearchingTours.Application.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Models/SearchingTours.Application.Models.csproj",
+        "projectUniqueName": "C:\\main\\itmo\\SearchingTours\\src\\Application\\SearchingTours.Application.Models\\SearchingTours.Application.Models.csproj",
         "projectName": "SearchingTours.Application.Models",
-        "projectPath": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Models/SearchingTours.Application.Models.csproj",
-        "packagesPath": "/Users/qerenny/.nuget/packages/",
-        "outputPath": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Models/obj/",
+        "projectPath": "C:\\main\\itmo\\SearchingTours\\src\\Application\\SearchingTours.Application.Models\\SearchingTours.Application.Models.csproj",
+        "packagesPath": "C:\\Users\\Kaneki\\.nuget\\packages\\",
+        "outputPath": "C:\\main\\itmo\\SearchingTours\\src\\Application\\SearchingTours.Application.Models\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
-          "/Users/qerenny/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Kaneki\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -92,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
