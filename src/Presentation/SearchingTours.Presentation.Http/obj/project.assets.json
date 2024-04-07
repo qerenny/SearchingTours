@@ -166,20 +166,20 @@
     ]
   },
   "packageFolders": {
-    "/Users/qerenny/.nuget/packages/": {}
+    "C:\\Users\\Kaneki\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Presentation/SearchingTours.Presentation.Http/SearchingTours.Presentation.Http.csproj",
+      "projectUniqueName": "C:\\main\\itmo\\SearchingTours\\src\\Presentation\\SearchingTours.Presentation.Http\\SearchingTours.Presentation.Http.csproj",
       "projectName": "SearchingTours.Presentation.Http",
-      "projectPath": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Presentation/SearchingTours.Presentation.Http/SearchingTours.Presentation.Http.csproj",
-      "packagesPath": "/Users/qerenny/.nuget/packages/",
-      "outputPath": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Presentation/SearchingTours.Presentation.Http/obj/",
+      "projectPath": "C:\\main\\itmo\\SearchingTours\\src\\Presentation\\SearchingTours.Presentation.Http\\SearchingTours.Presentation.Http.csproj",
+      "packagesPath": "C:\\Users\\Kaneki\\.nuget\\packages\\",
+      "outputPath": "C:\\main\\itmo\\SearchingTours\\src\\Presentation\\SearchingTours.Presentation.Http\\obj\\",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "configFilePaths": [
-        "/Users/qerenny/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Kaneki\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -198,6 +198,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -259,7 +264,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

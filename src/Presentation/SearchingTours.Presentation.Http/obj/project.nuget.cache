@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "UiPoZg0uLodeg/s2SyNdB41lPlldyPgQv5YQYGhsHedccK4RKx4ixSMquNeTFQiAddP1kQuPIYpbrXJC15ClpA==",
+  "dgSpecHash": "YSS93q1x6wSI1WX5Nl6MNe8W5nFv5xkFpY8seommHVE6rvnFR2tqzwZGEvSyxF6C4fxTt9yFAAyKh0rBX28ZNg==",
   "success": true,
-  "projectFilePath": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Presentation/SearchingTours.Presentation.Http/SearchingTours.Presentation.Http.csproj",
+  "projectFilePath": "C:\\main\\itmo\\SearchingTours\\src\\Presentation\\SearchingTours.Presentation.Http\\SearchingTours.Presentation.Http.csproj",
   "expectedPackageFiles": [
-    "/Users/qerenny/.nuget/packages/itmo.dev.editorconfig/1.0.1/itmo.dev.editorconfig.1.0.1.nupkg.sha512",
-    "/Users/qerenny/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
-    "/Users/qerenny/.nuget/packages/stylecop.analyzers/1.2.0-beta.435/stylecop.analyzers.1.2.0-beta.435.nupkg.sha512",
-    "/Users/qerenny/.nuget/packages/stylecop.analyzers.unstable/1.2.0.435/stylecop.analyzers.unstable.1.2.0.435.nupkg.sha512",
-    "/Users/qerenny/.nuget/packages/system.linq.async/6.0.1/system.linq.async.6.0.1.nupkg.sha512"
+    "C:\\Users\\Kaneki\\.nuget\\packages\\itmo.dev.editorconfig\\1.0.1\\itmo.dev.editorconfig.1.0.1.nupkg.sha512",
+    "C:\\Users\\Kaneki\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\Kaneki\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.435\\stylecop.analyzers.1.2.0-beta.435.nupkg.sha512",
+    "C:\\Users\\Kaneki\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.435\\stylecop.analyzers.unstable.1.2.0.435.nupkg.sha512",
+    "C:\\Users\\Kaneki\\.nuget\\packages\\system.linq.async\\6.0.1\\system.linq.async.6.0.1.nupkg.sha512"
   ],
   "logs": []
 }
