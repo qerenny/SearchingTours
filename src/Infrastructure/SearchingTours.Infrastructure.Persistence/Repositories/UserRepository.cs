@@ -24,7 +24,7 @@ public class UserRepository(ApplicationDbContext context) : IUserRepository
             Email = userModel.GetEmail(),
             City = userModel.GetCity(),
             Phone = userModel.GetPhone(),
-            Password = userModel.GetPassword()
+            Password = userModel.GetPassword(),
         };
 
         context.Users.Add(newUserEntity);
@@ -65,7 +65,7 @@ public class UserRepository(ApplicationDbContext context) : IUserRepository
             Phone = userModel.GetPhone(),
             City = userModel.GetCity(),
             Password = userModel.GetPassword(),
-            Id = userModel.GetId()
+            Id = userModel.GetId(),
         });
     }
 }
