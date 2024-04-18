@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Contracts/SearchingTours.Application.Contracts.csproj": {}
+    "/Users/qerenny/Documents/ИТМО/OOP-2/SearchingTours/src/Application/SearchingTours.Application.Contracts/SearchingTours.Application.Contracts.csproj": {}
   },
   "projects": {
-    "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Contracts/SearchingTours.Application.Contracts.csproj": {
+    "/Users/qerenny/Documents/ИТМО/OOP-2/SearchingTours/src/Application/SearchingTours.Application.Contracts/SearchingTours.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Contracts/SearchingTours.Application.Contracts.csproj",
+        "projectUniqueName": "/Users/qerenny/Documents/ИТМО/OOP-2/SearchingTours/src/Application/SearchingTours.Application.Contracts/SearchingTours.Application.Contracts.csproj",
         "projectName": "SearchingTours.Application.Contracts",
-        "projectPath": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Contracts/SearchingTours.Application.Contracts.csproj",
+        "projectPath": "/Users/qerenny/Documents/ИТМО/OOP-2/SearchingTours/src/Application/SearchingTours.Application.Contracts/SearchingTours.Application.Contracts.csproj",
         "packagesPath": "/Users/qerenny/.nuget/packages/",
-        "outputPath": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Contracts/obj/",
+        "outputPath": "/Users/qerenny/Documents/ИТМО/OOP-2/SearchingTours/src/Application/SearchingTours.Application.Contracts/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
@@ -27,8 +27,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Models/SearchingTours.Application.Models.csproj": {
-                "projectPath": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Models/SearchingTours.Application.Models.csproj"
+              "/Users/qerenny/Documents/ИТМО/OOP-2/SearchingTours/src/Application/SearchingTours.Application.Models/SearchingTours.Application.Models.csproj": {
+                "projectPath": "/Users/qerenny/Documents/ИТМО/OOP-2/SearchingTours/src/Application/SearchingTours.Application.Models/SearchingTours.Application.Models.csproj"
               }
             }
           }
@@ -63,6 +63,7 @@
             }
           },
           "centralPackageVersions": {
+            "DotNet.Testcontainers": "[1.6.0, )",
             "EntityFramework": "[6.4.4, )",
             "Itmo.Dev.Editorconfig": "[1.0.1, )",
             "Itmo.Dev.Platform.Common": "[1.1.82, )",
@@ -78,7 +79,9 @@
             "SourceKit.Generators.Builder": "[1.1.24, )",
             "StyleCop.Analyzers": "[1.2.0-beta.435, )",
             "Swashbuckle.AspNetCore": "[6.5.0, )",
-            "System.Linq.Async": "[6.0.1, )"
+            "System.Linq.Async": "[6.0.1, )",
+            "Testcontainers": "[3.7.0, )",
+            "Testcontainers.PostgreSql": "[3.7.0, )"
           },
           "imports": [
             "net461",
@@ -100,14 +103,14 @@
         }
       }
     },
-    "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Models/SearchingTours.Application.Models.csproj": {
+    "/Users/qerenny/Documents/ИТМО/OOP-2/SearchingTours/src/Application/SearchingTours.Application.Models/SearchingTours.Application.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Models/SearchingTours.Application.Models.csproj",
+        "projectUniqueName": "/Users/qerenny/Documents/ИТМО/OOP-2/SearchingTours/src/Application/SearchingTours.Application.Models/SearchingTours.Application.Models.csproj",
         "projectName": "SearchingTours.Application.Models",
-        "projectPath": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Models/SearchingTours.Application.Models.csproj",
+        "projectPath": "/Users/qerenny/Documents/ИТМО/OOP-2/SearchingTours/src/Application/SearchingTours.Application.Models/SearchingTours.Application.Models.csproj",
         "packagesPath": "/Users/qerenny/.nuget/packages/",
-        "outputPath": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Models/obj/",
+        "outputPath": "/Users/qerenny/Documents/ИТМО/OOP-2/SearchingTours/src/Application/SearchingTours.Application.Models/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
@@ -155,6 +158,7 @@
             }
           },
           "centralPackageVersions": {
+            "DotNet.Testcontainers": "[1.6.0, )",
             "EntityFramework": "[6.4.4, )",
             "Itmo.Dev.Editorconfig": "[1.0.1, )",
             "Itmo.Dev.Platform.Common": "[1.1.82, )",
@@ -170,7 +174,9 @@
             "SourceKit.Generators.Builder": "[1.1.24, )",
             "StyleCop.Analyzers": "[1.2.0-beta.435, )",
             "Swashbuckle.AspNetCore": "[6.5.0, )",
-            "System.Linq.Async": "[6.0.1, )"
+            "System.Linq.Async": "[6.0.1, )",
+            "Testcontainers": "[3.7.0, )",
+            "Testcontainers.PostgreSql": "[3.7.0, )"
           },
           "imports": [
             "net461",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UiPoZg0uLodeg/s2SyNdB41lPlldyPgQv5YQYGhsHedccK4RKx4ixSMquNeTFQiAddP1kQuPIYpbrXJC15ClpA==",
+  "dgSpecHash": "fZv1gWa3CBkMin1wVGjW5d6YaEraddiKWKwuxqsd9HVss5DW4QjpjvwDRMlkGjIl528uteD03i2CyDa/cdvLjQ==",
   "success": true,
-  "projectFilePath": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Presentation/SearchingTours.Presentation.Http/SearchingTours.Presentation.Http.csproj",
+  "projectFilePath": "/Users/qerenny/Documents/ИТМО/OOP-2/SearchingTours/src/Presentation/SearchingTours.Presentation.Http/SearchingTours.Presentation.Http.csproj",
   "expectedPackageFiles": [
     "/Users/qerenny/.nuget/packages/itmo.dev.editorconfig/1.0.1/itmo.dev.editorconfig.1.0.1.nupkg.sha512",
     "/Users/qerenny/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

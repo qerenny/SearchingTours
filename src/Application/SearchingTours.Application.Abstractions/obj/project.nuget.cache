@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XG1Hz1SfXrtXhz3e1bovMHmUqINlAT8xNvACOO/Cim41kUOw0na9ftuSzAc5Xl/AERMl/UGphPgoKgFSuXuNYw==",
+  "dgSpecHash": "4lQoayanZeuDXD6eYGP4+d653rK34vqu1q8LsjN0UvVoMcTK0FrrkoPtgqGPBdk4CyRruy1ITIiPF1i+odw4TA==",
   "success": true,
-  "projectFilePath": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Abstractions/SearchingTours.Application.Abstractions.csproj",
+  "projectFilePath": "/Users/qerenny/Documents/ИТМО/OOP-2/SearchingTours/src/Application/SearchingTours.Application.Abstractions/SearchingTours.Application.Abstractions.csproj",
   "expectedPackageFiles": [
     "/Users/qerenny/.nuget/packages/fluentmigrator/3.3.2/fluentmigrator.3.3.2.nupkg.sha512",
     "/Users/qerenny/.nuget/packages/fluentmigrator.abstractions/3.3.2/fluentmigrator.abstractions.3.3.2.nupkg.sha512",

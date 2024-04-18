@@ -15,6 +15,7 @@ builder.Services.AddOptions<JsonSerializerSettings>();
 builder.Services.AddSingleton(sp => sp.GetRequiredService<IOptions<JsonSerializerSettings>>().Value);
 
 builder.Services.AddApplication();
+
 builder.Services.AddInfrastructurePersistence(builder.Configuration);
 builder.Services
     .AddControllers()
@@ -22,7 +23,7 @@ builder.Services
     .AddPresentationHttp();
 
 builder.Services.AddSwaggerGen().AddEndpointsApiExplorer();
-
+builder.Services.AddSwaggerGen();
 builder.Host.AddPlatformSerilog(builder.Configuration);
 builder.Services.AddUtcDateTimeProvider();
 
@@ -31,7 +32,6 @@ WebApplication app = builder.Build();
 app.UseRouting();
 app.UseSwagger();
 app.UseSwaggerUI();
-
 app.MapControllers();
 
 await app.RunAsync();
