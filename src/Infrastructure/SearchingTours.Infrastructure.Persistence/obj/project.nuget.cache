@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "K3DGyD0R+KJV7s2BM8PQSstIjhzHvVT3Q4yDB8btGyQ9sv44VyLT7EWTF+rL59UuMIfbm+bqZhE3C0mmm00gWQ==",
+  "dgSpecHash": "7C31XSdT5Da1dAbjiNCHBuy/p/Yed+CLw4Mm4q33v+StOs20CyhRgEIiGA635eX9eoceYPo4EMdDw8gdvv/9KQ==",
   "success": true,
   "projectFilePath": "C:\\main\\itmo\\SearchingTours\\src\\Infrastructure\\SearchingTours.Infrastructure.Persistence\\SearchingTours.Infrastructure.Persistence.csproj",
   "expectedPackageFiles": [

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GU1Amx4K6DO5ioYUJ9njbnzqec5f332w/LhfiW+nzoFLnylrhV0eupnFxkSG7B4FciSHUB8fE3yOb+ZEzNV9MQ==",
+  "dgSpecHash": "lrCboiIZUttUUsueOr9gnY/jVKD7NydqDPdajtfPht3T4hZfRkHlazyJeBKsMho6O/7zQX2j78PS3oDi8pSR0Q==",
   "success": true,
   "projectFilePath": "C:\\main\\itmo\\SearchingTours\\src\\Application\\SearchingTours.Application.Abstractions\\SearchingTours.Application.Abstractions.csproj",
   "expectedPackageFiles": [

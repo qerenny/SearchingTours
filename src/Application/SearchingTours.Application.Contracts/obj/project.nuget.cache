@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AuFfn+4oeLeBtq1V1EC8G2TrbrtB+TC8WTookiw3ZH2A/Swll7Mi5vGtLGjQb9+avnIMu0mBYme6s15pWwct4Q==",
+  "dgSpecHash": "KARo+dypfCkkI1yWap+OQCt5FoAEPNWFTKh2mj1gACheVGicw6VXG+vvRNkcg3LjxKZDXjvjZ7sxEGLyaO5P4g==",
   "success": true,
   "projectFilePath": "C:\\main\\itmo\\SearchingTours\\src\\Application\\SearchingTours.Application.Contracts\\SearchingTours.Application.Contracts.csproj",
   "expectedPackageFiles": [

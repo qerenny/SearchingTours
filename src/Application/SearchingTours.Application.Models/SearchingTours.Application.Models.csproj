@@ -3,11 +3,6 @@
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="..\..\..\.dockerignore">
-      <Link>.dockerignore</Link>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="data\pgdata\" />
   </ItemGroup>
 </Project>
