@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\main\\itmo\\SearchingTours\\src\\Application\\SearchingTours.Application.Abstractions\\SearchingTours.Application.Abstractions.csproj": {}
+    "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Abstractions/SearchingTours.Application.Abstractions.csproj": {}
   },
   "projects": {
-    "C:\\main\\itmo\\SearchingTours\\src\\Application\\SearchingTours.Application.Abstractions\\SearchingTours.Application.Abstractions.csproj": {
+    "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Abstractions/SearchingTours.Application.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\main\\itmo\\SearchingTours\\src\\Application\\SearchingTours.Application.Abstractions\\SearchingTours.Application.Abstractions.csproj",
+        "projectUniqueName": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Abstractions/SearchingTours.Application.Abstractions.csproj",
         "projectName": "SearchingTours.Application.Abstractions",
-        "projectPath": "C:\\main\\itmo\\SearchingTours\\src\\Application\\SearchingTours.Application.Abstractions\\SearchingTours.Application.Abstractions.csproj",
-        "packagesPath": "C:\\Users\\Kaneki\\.nuget\\packages\\",
-        "outputPath": "C:\\main\\itmo\\SearchingTours\\src\\Application\\SearchingTours.Application.Abstractions\\obj\\",
+        "projectPath": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Abstractions/SearchingTours.Application.Abstractions.csproj",
+        "packagesPath": "/Users/qerenny/.nuget/packages/",
+        "outputPath": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Abstractions/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
-          "C:\\Users\\Kaneki\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/qerenny/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -27,8 +27,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\main\\itmo\\SearchingTours\\src\\Application\\SearchingTours.Application.Models\\SearchingTours.Application.Models.csproj": {
-                "projectPath": "C:\\main\\itmo\\SearchingTours\\src\\Application\\SearchingTours.Application.Models\\SearchingTours.Application.Models.csproj"
+              "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Models/SearchingTours.Application.Models.csproj": {
+                "projectPath": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Models/SearchingTours.Application.Models.csproj"
               }
             }
           }
@@ -38,11 +38,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -124,22 +119,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\main\\itmo\\SearchingTours\\src\\Application\\SearchingTours.Application.Models\\SearchingTours.Application.Models.csproj": {
+    "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Models/SearchingTours.Application.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\main\\itmo\\SearchingTours\\src\\Application\\SearchingTours.Application.Models\\SearchingTours.Application.Models.csproj",
+        "projectUniqueName": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Models/SearchingTours.Application.Models.csproj",
         "projectName": "SearchingTours.Application.Models",
-        "projectPath": "C:\\main\\itmo\\SearchingTours\\src\\Application\\SearchingTours.Application.Models\\SearchingTours.Application.Models.csproj",
-        "packagesPath": "C:\\Users\\Kaneki\\.nuget\\packages\\",
-        "outputPath": "C:\\main\\itmo\\SearchingTours\\src\\Application\\SearchingTours.Application.Models\\obj\\",
+        "projectPath": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Models/SearchingTours.Application.Models.csproj",
+        "packagesPath": "/Users/qerenny/.nuget/packages/",
+        "outputPath": "/Users/qerenny/Documents/ИТМО/SearchingTours/src/Application/SearchingTours.Application.Models/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
-          "C:\\Users\\Kaneki\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/qerenny/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -158,11 +153,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -224,7 +214,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,4 +1,3 @@
-using SearchingTours.Infrastructure.Persistence.Configurations;
 using Microsoft.EntityFrameworkCore;
 using SearchingTours.Application.Models;
 
