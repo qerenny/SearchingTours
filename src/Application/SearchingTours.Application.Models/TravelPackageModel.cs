@@ -15,9 +15,11 @@ public class TravelPackageModel : IEntity
     
     public int? AmountOfPeople { get; set; }
     
-    public int? Price { get; set; }
+    public string? Destination { get; set; }
     
-    public int? Rating { get; set; }
+    public decimal? Price { get; set; }
+    
+    public double? Rating { get; set; }
     
     public DateTime? StartDate { get; set; }
     

@@ -12,6 +12,8 @@ public class TravelPackageEntity : IEntity
     
     public int? AmountOfPeople { get; set; }
     
+    public int? AmountOfPackage { get; set; }
+    
     public string? Destination { get; set; }
     
     public decimal? Price { get; set; }
