@@ -1,9 +1,9 @@
-namespace SearchingTours.Application.Extensions;
-
 using SearchingTours.Infrastructure.Persistence.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+
+namespace SearchingTours.Application.Extensions;
 
 public static class ServiceCollectionExtensions
 {

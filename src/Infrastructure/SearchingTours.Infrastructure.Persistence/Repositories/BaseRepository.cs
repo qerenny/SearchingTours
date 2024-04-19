@@ -1,6 +1,6 @@
-using DoctorsHelp.Application.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
+using SearchingTours.Application.Models.Interfaces;
 
 namespace SearchingTours.Infrastructure.Persistence.Repositories;
 
@@ -8,6 +8,7 @@ public abstract class BaseRepository<TEntity, TModel>
     where TEntity : IEntity
     where TModel : class, IEntity
 {
+    #pragma warning disable IDE0032
     private readonly DbContext _context;
 
     protected DbContext Context => _context;

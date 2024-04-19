@@ -1,5 +1,5 @@
-using DoctorsHelp.Application.Models;
 using SearchingTours.Application.Models;
+using SearchingTours.Application.Models.Interfaces;
 
 namespace SearchingTours.Application.Models;
 

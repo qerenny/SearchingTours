@@ -3,15 +3,9 @@ using Microsoft.Extensions.Configuration;
 using SearchingTours.Infrastructure.Persistence.Contexts;
 using SearchingTours.Infrastructure.Persistence.Repositories;
 using SearchingTours.Infrastructure.Persistence.Repositories.Interfaces;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace SearchingTours.Infrastructure.Persistence.Extensions;
-
-using Itmo.Dev.Platform.Postgres.Extensions;
-using Itmo.Dev.Platform.Postgres.Plugins;
-using Microsoft.Extensions.DependencyInjection;
-using SearchingTours.Application.Abstractions.Persistence;
-using SearchingTours.Infrastructure.Persistence.Migrations;
-using SearchingTours.Infrastructure.Persistence.Plugins;
 
 public static class ServiceCollectionExtensions
 {

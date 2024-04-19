@@ -1,4 +1,4 @@
-using DoctorsHelp.Application.Models;
+using SearchingTours.Application.Models.Interfaces;
 
 namespace SearchingTours.Infrastructure.Persistence.Entity;
 
