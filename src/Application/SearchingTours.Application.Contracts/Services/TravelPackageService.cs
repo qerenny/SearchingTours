@@ -43,7 +43,7 @@ public class TravelPackageService : ITravelPackageService
 
     public TravelPackageEntity? GetTravelPackage(Guid id)
     {
-        var model = _travelPackageRepository.GetTravelPackage(id);
+        TravelPackageModel? model = _travelPackageRepository.GetTravelPackage(id);
 
         return TravelPackageConverter.ModelToEntity(model);
     }
@@ -55,7 +55,7 @@ public class TravelPackageService : ITravelPackageService
         if (toUpdate is null)
             throw new Exception("No such user");
 
-        foreach (var entry in data)
+        foreach (KeyValuePair<string, string> entry in data)
         {
             switch (entry.Key)
             {
@@ -102,7 +102,7 @@ public class TravelPackageService : ITravelPackageService
             }
         }
 
-        var travelPackage = TravelPackageConverter.ModelToEntity(toUpdate);
+        TravelPackageEntity? travelPackage = TravelPackageConverter.ModelToEntity(toUpdate);
 
         if (travelPackage is null)
             return null;

@@ -14,7 +14,7 @@ public class UserService : IUserService
         _userRepository = userRepository;
     }
 
-    public UserEntity Register(string name, string phone, string city, string email, string password)
+    public UserEntity Register(string name, string phone, string email, string password, string city)
     {
         var user = new UserEntity
         {
@@ -31,7 +31,7 @@ public class UserService : IUserService
 
     public UserEntity? GetUser(Guid id)
     {
-        var userModel = _userRepository.GetUser(id);
+        UserModel? userModel = _userRepository.GetUser(id);
 
         return UserConverter.UserModelToUser(userModel);
     }
@@ -43,7 +43,7 @@ public class UserService : IUserService
         if (userToUpdate is null)
             throw new Exception("No such user");
 
-        foreach (var entry in data)
+        foreach (KeyValuePair<string, string> entry in data)
         {
             switch (entry.Key)
             {
@@ -62,7 +62,7 @@ public class UserService : IUserService
             }
         }
 
-        var user = UserConverter.UserModelToUser(userToUpdate);
+        UserEntity? user = UserConverter.UserModelToUser(userToUpdate);
 
         if (user is null)
             return null;

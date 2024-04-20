@@ -37,7 +37,7 @@ public class ReviewService : IReviewService
 
     public ReviewEntity? GetReview(Guid id)
     {
-        var model = _reviewRepository.GetReview(id);
+        ReviewModel? model = _reviewRepository.GetReview(id);
 
         return ReviewConverter.ModelToEntity(model);
     }
@@ -49,7 +49,7 @@ public class ReviewService : IReviewService
         if (toUpdate is null)
             throw new Exception("No such user");
 
-        foreach (var entry in data)
+        foreach (KeyValuePair<string, string> entry in data)
         {
             switch (entry.Key)
             {
@@ -72,7 +72,7 @@ public class ReviewService : IReviewService
             }
         }
 
-        var review = ReviewConverter.ModelToEntity(toUpdate);
+        ReviewEntity? review = ReviewConverter.ModelToEntity(toUpdate);
 
         if (review is null)
             return null;

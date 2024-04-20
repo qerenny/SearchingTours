@@ -1,8 +1,6 @@
-using SearchingTours.Application.Models.Interfaces;
-
 namespace SearchingTours.Application.Models;
 
-public class UserModel : IEntity
+public class UserModel : Interfaces.IEntity
 {
     public Guid? Id { get; set; }
     

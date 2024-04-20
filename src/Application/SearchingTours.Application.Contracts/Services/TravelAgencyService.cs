@@ -29,7 +29,7 @@ public class TravelAgencyService : ITravelAgencyService
 
     public TravelAgencyEntity? GetTravelAgency(Guid id)
     {
-        var travelAgencyModel = _travelAgencyRepository.GetTravelAgency(id);
+        TravelAgencyModel? travelAgencyModel = _travelAgencyRepository.GetTravelAgency(id);
 
         return TravelAgencyConverter.ModelToEntity(travelAgencyModel);
     }
@@ -41,7 +41,7 @@ public class TravelAgencyService : ITravelAgencyService
         if (toUpdate is null)
             throw new Exception("No such user");
 
-        foreach (var entry in data)
+        foreach (KeyValuePair<string, string> entry in data)
         {
             switch (entry.Key)
             {
@@ -54,7 +54,7 @@ public class TravelAgencyService : ITravelAgencyService
             }
         }
 
-        var travelAgency = TravelAgencyConverter.ModelToEntity(toUpdate);
+        TravelAgencyEntity? travelAgency = TravelAgencyConverter.ModelToEntity(toUpdate);
 
         if (travelAgency is null)
             return null;
