@@ -45,7 +45,7 @@ public abstract class BaseRepository<TEntity, TModel>
         if (entity is null) 
             throw new ArgumentNullException(nameof(entity));
 
-        var entry = GetEntry(entity);
+        EntityEntry<TModel>? entry = GetEntry(entity);
         if (entry is null)
         {
             throw new InvalidOperationException("Entity not found.");
@@ -61,7 +61,7 @@ public abstract class BaseRepository<TEntity, TModel>
         if (entity is null) 
             throw new ArgumentNullException(nameof(entity));
 
-        var entry = GetEntry(entity);
+        EntityEntry<TModel>? entry = GetEntry(entity);
         if (entry is null)
         {
             throw new InvalidOperationException("Entity not found.");
