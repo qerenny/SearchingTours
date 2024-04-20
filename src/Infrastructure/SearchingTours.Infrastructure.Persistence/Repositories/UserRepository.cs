@@ -18,19 +18,14 @@ public class UserRepository : BaseRepository<UserEntity, UserModel>, IUserReposi
     public UserModel? GetUser(Guid id)
     {
         return GetEntry(new UserEntity { Id = id })?.Entity;
-    }
-
-    public void AddUser(UserEntity user)
-    {
-        Add(user);
-    }
+    }   
 
     public void UpdateUser(UserEntity user)
     {
         Update(user);
     }
 
-    public bool DeleteUser(UserEntity user)
+    public bool Delete(UserEntity user)
     {
         Remove(user);
         return true; // Возвращает true, предполагая успешное удаление, но на практике следует проверить статус операции.
