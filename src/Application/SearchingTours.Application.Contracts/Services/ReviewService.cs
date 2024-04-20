@@ -16,7 +16,7 @@ public class ReviewService : IReviewService
         _travelPackageRepository = travelPackageRepository;
     }
 
-    public ReviewEntity AddReview(Guid travelPackageId, string authorName, string text, int rating)
+    public ReviewEntity AddReview(Guid travelPackageId, string? authorName, string? text, int? rating)
     {
         TravelPackageEntity? travelPackage = TravelPackageConverter.ModelToEntity(_travelPackageRepository.GetTravelPackage(travelPackageId));
         

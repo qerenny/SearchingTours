@@ -16,7 +16,7 @@ public class TravelPackageService : ITravelPackageService
         _travelAgencyRepository = travelAgencyRepository;
     }
 
-    public TravelPackageEntity AddTravelPackage(string name, Guid travelAgencyId, int amountOfPeople, int amountOfPackage, string destination, decimal price, string description, DateTime startDate, DateTime endDate, int rating)
+    public TravelPackageEntity AddTravelPackage(Guid travelAgencyId, string name, int amountOfPeople, int amountOfPackage, string destination, decimal price, string description, DateTime startDate, DateTime endDate, int rating)
     {
         TravelAgencyEntity? travelAgency = TravelAgencyConverter.ModelToEntity(_travelAgencyRepository.GetTravelAgency(travelAgencyId));
         
@@ -40,6 +40,7 @@ public class TravelPackageService : ITravelPackageService
         _travelPackageRepository.AddTravelPackage(travelPackage);
         return travelPackage;
     }
+    
 
     public TravelPackageEntity? GetTravelPackage(Guid id)
     {

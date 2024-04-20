@@ -4,7 +4,7 @@ namespace SearchingTours.Application.Contracts;
 
 public interface ITravelAgencyService
 {
-    TravelAgencyEntity AddTravelAgency(string name, string contactInfo, string password);
+    TravelAgencyEntity AddTravelAgency(string? name, string? contactInfo, string? password);
 
     TravelAgencyEntity? GetTravelAgency(Guid id);
 

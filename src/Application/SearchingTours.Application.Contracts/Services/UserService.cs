@@ -14,7 +14,7 @@ public class UserService : IUserService
         _userRepository = userRepository;
     }
 
-    public UserEntity Register(string name, string phone, string email, string password, string city)
+    public UserEntity Create(string? name, string? phone, string? email, string? password, string? city)
     {
         var user = new UserEntity
         {
@@ -36,7 +36,7 @@ public class UserService : IUserService
         return UserConverter.UserModelToUser(userModel);
     }
 
-    public UserEntity? UpdateUser(Guid id, Dictionary<string, string> data)
+    public UserEntity? Update(Guid id, Dictionary<string, string> data)
     {
         UserModel? userToUpdate = _userRepository.GetUser(id);
 
@@ -72,7 +72,7 @@ public class UserService : IUserService
         return UserConverter.UserModelToUser(userToUpdate);
     }
 
-    public bool DeleteUser(Guid id)
+    public bool Delete(Guid id)
     {
         return _userRepository.Delete(new UserEntity { Id = id });
     }

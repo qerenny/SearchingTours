@@ -14,7 +14,7 @@ public class TravelAgencyService : ITravelAgencyService
         _travelAgencyRepository = repository;
     }
 
-    public TravelAgencyEntity AddTravelAgency(string name, string contactInfo, string password)
+    public TravelAgencyEntity AddTravelAgency(string? name, string? contactInfo, string? password)
     {
         var travelAgency = new TravelAgencyEntity
         {

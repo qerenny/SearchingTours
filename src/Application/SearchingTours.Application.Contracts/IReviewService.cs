@@ -4,7 +4,7 @@ namespace SearchingTours.Application.Contracts;
 
 public interface IReviewService
 {
-    ReviewEntity AddReview(Guid travelPackageId, string authorName, string text, int rating);
+    ReviewEntity AddReview(Guid travelPackageId, string? authorName, string? text, int? rating);
 
     ReviewEntity? GetReview(Guid id);
 
