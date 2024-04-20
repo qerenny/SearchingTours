@@ -1,4 +1,4 @@
-using DoctorsHelp.Application.Models;
+using SearchingTours.Application.Models;
 using SearchingTours.Application.Models;
 
 namespace SearchingTours.Application.Models;

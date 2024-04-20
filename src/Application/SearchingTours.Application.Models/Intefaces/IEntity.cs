@@ -1,4 +1,4 @@
-﻿namespace DoctorsHelp.Application.Models;
+﻿namespace SearchingTours.Application.Models;
 
 public interface IEntity
 {

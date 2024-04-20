@@ -1,4 +1,4 @@
-using DoctorsHelp.Application.Models;
+using SearchingTours.Application.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 
