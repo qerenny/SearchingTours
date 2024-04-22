@@ -1,3 +1,4 @@
+#pragma warning disable CA1506
 using Itmo.Dev.Platform.Common.Extensions;
 using Itmo.Dev.Platform.Logging.Extensions;
 using SearchingTours.Application.Extensions;
@@ -6,6 +7,7 @@ using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using SearchingTours.Infrastructure.Persistence.Extensions;
 
+using Testcontainers.PostgreSql;
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
 builder.Configuration.AddUserSecrets<Program>();
@@ -15,7 +17,14 @@ builder.Services.AddSingleton(sp => sp.GetRequiredService<IOptions<JsonSerialize
 
 builder.Services.AddApplication();
 
+PostgreSqlContainer postgres = new PostgreSqlBuilder().WithImage("postgres:16.2-alpine").Build();
+
+await postgres.StartAsync();
+
+builder.Configuration["Infrastructure:Persistence:Postgres:ConnectionString"] = postgres.GetConnectionString();
 builder.Services.AddInfrastructurePersistence(builder.Configuration);
+
+
 builder.Services
     .AddControllers()
     .AddNewtonsoftJson()
@@ -34,3 +43,4 @@ app.UseSwaggerUI();
 app.MapControllers();
 
 await app.RunAsync();
+#pragma warning restore CA1506

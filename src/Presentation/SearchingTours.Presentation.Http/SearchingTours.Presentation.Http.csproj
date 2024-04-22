@@ -8,4 +8,8 @@
       <ProjectReference Include="..\..\Application\SearchingTours.Application.Contracts\SearchingTours.Application.Contracts.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Testcontainers.PostgreSql" />
+    </ItemGroup>
+
 </Project>

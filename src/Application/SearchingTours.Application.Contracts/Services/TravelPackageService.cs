@@ -16,7 +16,7 @@ public class TravelPackageService : ITravelPackageService
         _travelAgencyRepository = travelAgencyRepository;
     }
 
-    public TravelPackageEntity AddTravelPackage(Guid travelAgencyId, string name, int amountOfPeople, int amountOfPackage, string destination, decimal price, string description, DateTime startDate, DateTime endDate, int rating)
+    public TravelPackageEntity AddTravelPackage(Guid travelAgencyId, string? name, int amountOfPeople, int amountOfPackage, string? destination, decimal price, string? description, DateTime startDate, DateTime endDate, int rating)
     {
         TravelAgencyEntity? travelAgency = TravelAgencyConverter.ModelToEntity(_travelAgencyRepository.GetTravelAgency(travelAgencyId));
         

@@ -6,12 +6,12 @@ public interface ITravelPackageService
 {
     TravelPackageEntity AddTravelPackage(
         Guid travelAgencyId,
-        string name,
+        string? name,
         int amountOfPeople,
         int amountOfPackage,
-        string destination,
+        string? destination,
         decimal price,
-        string description,
+        string? description,
         DateTime startDate,
         DateTime endDate,
         int rating);

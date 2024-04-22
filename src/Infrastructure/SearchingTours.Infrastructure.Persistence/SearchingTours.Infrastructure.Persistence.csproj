@@ -8,6 +8,7 @@
     <PackageReference Include="Itmo.Dev.Platform.Postgres" />
     <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" />
     <PackageReference Include="System.IO" />
+    <PackageReference Include="Testcontainers.PostgreSql" />
     </ItemGroup>
     
     <ItemGroup>

@@ -5,4 +5,8 @@
         <ProjectReference Include="..\SearchingTours.Application.Models\SearchingTours.Application.Models.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Testcontainers.PostgreSql" />
+    </ItemGroup>
+
 </Project>
