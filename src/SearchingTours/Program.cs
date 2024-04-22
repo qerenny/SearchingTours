@@ -4,6 +4,7 @@ using SearchingTours.Application.Extensions;
 using SearchingTours.Presentation.Http.Extensions;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
+using SearchingTours.Infrastructure.Persistence.Extensions;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 

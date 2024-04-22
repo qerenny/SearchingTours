@@ -16,9 +16,6 @@ public class ApplicationDbContext : DbContext
     
     public required DbSet<ReviewModel> Reviews { get; set; }
     
-    // public required DbSet<CartItemEntity> CartItems { get; set; }
-    //
-    // public required DbSet<CartEntity> Carts { get; set; }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
