@@ -11,11 +11,6 @@ public class ReviewRepository : BaseRepository<ReviewEntity, ReviewModel>, IRevi
     public ReviewRepository(ApplicationDbContext context) : base(context)
     {
     }
-    
-    public void AddReview(ReviewEntity review)
-    {
-        Add(review);
-    }
 
     public ReviewModel? GetReview(Guid id)
     {
@@ -31,6 +26,11 @@ public class ReviewRepository : BaseRepository<ReviewEntity, ReviewModel>, IRevi
     {
         Remove(review);
         return true;
+    }
+    
+    public void AddReview(ReviewEntity review)
+    {
+        Add(review);
     }
 
     protected override DbSet<ReviewModel> DbSet => ((ApplicationDbContext)Context).Reviews;
@@ -54,7 +54,6 @@ public class ReviewRepository : BaseRepository<ReviewEntity, ReviewModel>, IRevi
 
     protected override void UpdateModel(ReviewModel model, ReviewEntity entity)
     {
-        model.Id = entity.Id;
         model.TravelPackageId = entity.TravelPackageEntity?.Id ?? Guid.Empty;
         model.Text = entity.Text;
         model.Rating = entity.Rating;

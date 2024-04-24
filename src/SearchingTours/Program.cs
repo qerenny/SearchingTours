@@ -7,7 +7,7 @@ using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using SearchingTours.Infrastructure.Persistence.Extensions;
 
-using Testcontainers.PostgreSql;
+// using Testcontainers.PostgreSql;
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
 builder.Configuration.AddUserSecrets<Program>();
@@ -17,11 +17,11 @@ builder.Services.AddSingleton(sp => sp.GetRequiredService<IOptions<JsonSerialize
 
 builder.Services.AddApplication();
 
-PostgreSqlContainer postgres = new PostgreSqlBuilder().WithImage("postgres:16.2-alpine").Build();
-
-await postgres.StartAsync();
-
-builder.Configuration["Infrastructure:Persistence:Postgres:ConnectionString"] = postgres.GetConnectionString();
+// PostgreSqlContainer postgres = new PostgreSqlBuilder().WithImage("postgres:16.2-alpine").Build();
+//
+// await postgres.StartAsync();
+//
+// builder.Configuration["Infrastructure:Persistence:Postgres:ConnectionString"] = postgres.GetConnectionString();
 builder.Services.AddInfrastructurePersistence(builder.Configuration);
 
 
@@ -30,7 +30,7 @@ builder.Services
     .AddNewtonsoftJson()
     .AddPresentationHttp();
 
-builder.Services.AddSwaggerGen().AddEndpointsApiExplorer();
+builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Host.AddPlatformSerilog(builder.Configuration);
 builder.Services.AddUtcDateTimeProvider();
