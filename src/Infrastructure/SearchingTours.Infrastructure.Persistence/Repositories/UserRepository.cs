@@ -9,7 +9,7 @@ namespace SearchingTours.Infrastructure.Persistence.Repositories;
 
 public class UserRepository : BaseRepository<UserEntity, UserModel>, IUserRepository
 {
-    public UserRepository(DbContext context) : base(context)
+    public UserRepository(ApplicationDbContext context) : base(context)
     {
     }
 
@@ -28,7 +28,7 @@ public class UserRepository : BaseRepository<UserEntity, UserModel>, IUserReposi
     public bool Delete(UserEntity user)
     {
         Remove(user);
-        return true; // Возвращает true, предполагая успешное удаление, но на практике следует проверить статус операции.
+        return true; 
     }
 
     protected override UserModel MapFrom(UserEntity entity)

@@ -8,7 +8,7 @@ namespace SearchingTours.Infrastructure.Persistence.Repositories;
 
 public class TravelPackageRepository : BaseRepository<TravelPackageEntity, TravelPackageModel>, ITravelPackageRepository
 {
-    public TravelPackageRepository(DbContext context) : base(context)
+    public TravelPackageRepository(ApplicationDbContext context) : base(context)
     {
     }
 

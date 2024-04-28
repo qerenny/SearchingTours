@@ -7,7 +7,6 @@ using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using SearchingTours.Infrastructure.Persistence.Extensions;
 
-// using Testcontainers.PostgreSql;
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
 builder.Configuration.AddUserSecrets<Program>();
@@ -16,12 +15,6 @@ builder.Services.AddOptions<JsonSerializerSettings>();
 builder.Services.AddSingleton(sp => sp.GetRequiredService<IOptions<JsonSerializerSettings>>().Value);
 
 builder.Services.AddApplication();
-
-// PostgreSqlContainer postgres = new PostgreSqlBuilder().WithImage("postgres:16.2-alpine").Build();
-//
-// await postgres.StartAsync();
-//
-// builder.Configuration["Infrastructure:Persistence:Postgres:ConnectionString"] = postgres.GetConnectionString();
 builder.Services.AddInfrastructurePersistence(builder.Configuration);
 
 

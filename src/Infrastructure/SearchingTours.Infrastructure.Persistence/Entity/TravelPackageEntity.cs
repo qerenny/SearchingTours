@@ -6,8 +6,6 @@ public class TravelPackageEntity : IEntity
 {
     public Guid? Id { get; set; }
     
-    public int? AmountOfPackages { get; set; }
-    
     public string? Name { get; set; }
     
     public int? AmountOfPeople { get; set; }

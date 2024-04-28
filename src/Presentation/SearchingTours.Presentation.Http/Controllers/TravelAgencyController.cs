@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using SearchingTours.Application.Contracts;
 using SearchingTours.Infrastructure.Persistence.Entity;
 using SearchingTours.Presentation.Http.Requests;
+using SearchingTours.Presentation.Http.Responses;
 
 namespace SearchingTours.Presentation.Http.Controllers;
 
@@ -29,7 +30,7 @@ public class TravelAgencyController : ControllerBase
     }
 
     [HttpPost]
-    public ActionResult<TravelAgencyEntity> Post([FromBody] TravelAgencyPost data)
+    public ActionResult<TravelAgencyPostResponse> Post([FromBody] TravelAgencyPost data)
     {
         try
         {
