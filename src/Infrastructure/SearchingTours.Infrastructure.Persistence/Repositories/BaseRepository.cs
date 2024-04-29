@@ -30,16 +30,6 @@ public abstract class BaseRepository<TEntity, TModel>
         _context.SaveChanges();
     }
 
-    public virtual void AddRange(IEnumerable<TEntity> entities)
-    {
-        if (entities is null) 
-            throw new ArgumentNullException(nameof(entities));
-
-        var models = entities.Select(MapFrom).ToList(); 
-        DbSet.AddRange(models);
-        _context.SaveChanges();
-    }
-
     public virtual void Update(TEntity entity)
     {
         if (entity is null) 
